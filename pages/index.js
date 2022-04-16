@@ -13,8 +13,8 @@ export default function Home() {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
-        <Header />
       </div>
+      <Header />
       <Brand />
       <WhatGermy />
       {/* <Features /> */}
