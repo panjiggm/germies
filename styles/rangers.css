@@ -1,0 +1,48 @@
+.germ_ranger {
+  display: flex;
+  flex-direction: column;
+}
+
+.germ__ranger-heading {
+  width: 100%;
+  text-align: left;
+
+  margin-bottom: 5rem;
+}
+
+.germ__ranger-heading h1 {
+  font-size: 62px;
+  line-height: 75px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.germ__ranger-heading p {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 840px) {
+  .germ__ranger-heading h1 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .germ__ranger-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .germ__ranger-heading p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
