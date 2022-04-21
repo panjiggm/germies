@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="germ__navbar">
       <div className="germ__navbar-links">
         <div className="germ__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <div className="germ__navbar-links_container">
           <p>
@@ -42,7 +42,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className="germ__navbar-sign">
-        <a href="https://opensea.io/collection/germies" target="_blank">
+        <a
+          href="https://opensea.io/collection/germies"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <button type="button">Opensea</button>
         </a>
       </div>
@@ -90,7 +94,11 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="germ__navbar-menu_container-links-sign">
-              <a href="https://opensea.io/collection/germies" target="_blank">
+              <a
+                href="https://opensea.io/collection/germies"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button type="button">Opensea</button>
               </a>
             </div>
