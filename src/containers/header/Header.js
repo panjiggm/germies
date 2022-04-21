@@ -16,7 +16,9 @@ const Header = () => (
       </p>
 
       <div className="germ__header-content__input">
-        <button type="button">Opensea</button>
+        <a href="https://opensea.io/collection/germies" target="_blank">
+          <button type="button">Opensea</button>
+        </a>
       </div>
 
       {/* <div className="germ__header-content__people">

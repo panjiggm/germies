@@ -42,7 +42,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="germ__navbar-sign">
-        <button type="button">Opensea</button>
+        <a href="https://opensea.io/collection/germies" target="_blank">
+          <button type="button">Opensea</button>
+        </a>
       </div>
       <div className="germ__navbar-menu">
         {toggleMenu ? (
@@ -88,7 +90,9 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="germ__navbar-menu_container-links-sign">
-              <button type="button">Opensea</button>
+              <a href="https://opensea.io/collection/germies" target="_blank">
+                <button type="button">Opensea</button>
+              </a>
             </div>
           </div>
         )}
