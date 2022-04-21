@@ -7,7 +7,7 @@ const Brand = () => (
         <a
           href="https://www.instagram.com/germiesnft/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <button className="btn-soc1">
             <img src={instagram} height={20} />
@@ -19,7 +19,7 @@ const Brand = () => (
         <a
           href="https://facebook.com/profile.php?id=100080377903429"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <button className="btn-soc2">
             <img src={facebook} height={20} />
@@ -31,7 +31,7 @@ const Brand = () => (
         <a
           href="https://twitter.com/GermiesNFT"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <button className="btn-soc3">
             <img src={twitter} height={20} />
